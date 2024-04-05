@@ -1,0 +1,8 @@
+Háttér: #FFFCD8
+Fejléc (bal): #588CA2
+Navigáció: #CD9461
+Menüpont (hover): 15%-os áttetsző fekete
+
+Alap betűszín: #746659
+Címsor: #3C362F
+Szlogen a logo alatt: 66%-os áttetsző fehér

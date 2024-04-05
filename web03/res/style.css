@@ -1,0 +1,187 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #999;
+}
+header
+{
+	background: linear-gradient(#C12F8A, #4E2A9D);
+}
+.inside
+{
+	width: 90%;
+	margin: auto;
+	max-width: 1000px;
+}
+header nav
+{
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .logo img
+{
+	width: 200px;
+}
+header nav ul
+{
+	list-style: none;
+}
+header nav li
+{
+	display: inline-block;
+}
+header nav ul a
+{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	border-radius: 50px;
+	transition: background 0.3s;
+}
+header nav ul a:hover
+{
+	background: rgba(0,0,0, 0.25);
+}
+header .medium
+{
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .medium .info
+{
+	width: 48%;
+	text-align: center;
+	color: #fff;
+}
+header .info h1,
+header .info p
+{
+	margin-bottom: 15px;
+}
+a.action
+{
+	background: #2EC0A4;
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 15px;
+	display: inline-block;
+	
+	border-radius: 50px;
+	transition: background 0.3s;
+}
+a.action:hover
+{
+	background: #218773;
+}
+header .info a
+{
+	padding: 10px 20px;
+	text-transform: uppercase;
+
+}
+
+header .medium .image
+{
+	width: 48%;
+	text-align: center;
+}
+header .medium img
+{
+	width: 75%;
+}
+header .bottom
+{
+	height: 40px;
+	background-image: url(header-bottom.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+main h2,main h3
+{
+	color: #666;
+}
+main section
+{
+	padding: 35px 0;
+	
+}
+.features .inside
+{
+	display: flex;
+	justify-content:space-around;
+}
+
+.articles
+{
+	background: #f4f4f4;
+}
+.features .item
+{
+	width: 25%;
+	text-align: center;
+}
+.features img
+{
+	opacity: 0.25;
+	height: 65px;
+	margin-bottom: 5px;
+}
+.features h3
+{
+	font-size: 110%;
+	margin-bottom: 10px;
+}
+.features p
+{
+	font-size: 90%;
+	
+}
+.articles .inside
+{
+	display: flex;
+}
+.articles .article
+{
+	width: 50%;
+	display: flex;
+	align-items: flex-start;
+}
+.articles img
+{
+	width: 45%;
+	margin-right: 10px;
+	object-fit: cover;
+}
+.articles .info
+{
+	margin-right: 25px;
+}
+.articles h3
+{
+	font-size: 120%;
+	margin-bottom: 10px;
+}
+.articles p
+{
+	margin-bottom: 15px;
+	
+}
+.articles a.action
+{
+	font-size: 80%;
+}

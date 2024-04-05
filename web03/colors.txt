@@ -1,0 +1,7 @@
+Bíbor: #C12F8A
+Lila: #4E2A9D
+Zöld: #2EC0A4
+Sötét szürke: #666
+Világosabb szürke: #999
+Tört fehér: #f4f4f4
+Ikonok: 33%-os fekete

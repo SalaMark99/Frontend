@@ -1,0 +1,151 @@
+
+@font-face
+{
+	font-family: "Title";
+	src: url(HindSiliguri-Bold.ttf);
+}
+@font-face
+{
+	font-family: "Text";
+	src: url(OpenSans-Bold.ttf);
+}
+
+*
+{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+}
+
+body
+{
+		font-size: 16x;
+		font-family: "Text";
+		line-height: 1.5;
+		color: #666;
+}
+
+header
+{
+	/*height: 500px;*/
+	background-image: url(header.jpg);
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	padding-top: 150px;
+	
+}
+header .title
+{
+	text-shadow: 1px 3px 0px rgba(0,0,0, 0.5);
+	font-size: 250%;
+	color: #fff;
+}
+header .slogan
+{
+		text-shadow: 1px 3px 0px rgba(0,0,0, 0.5);
+		color: rgba(255,255,255, 0.75);
+		display: block; /*sortörés*/
+		margin-top: 10px;
+		margin-bottom: 100px;
+}
+
+nav
+{
+	background: #CD9461
+	
+}
+nav ul
+{
+	list-style: none; /*felsorolo gömbök eltuntetése*/
+}
+nav li 
+{
+	display: inline-block; /* egymás mellett legyenek, az inline-blockkal pedig nem csak két oldalrol kap margot*/
+	
+}
+nav a 
+{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 25px;
+	display: block;
+	transition: background 0.3s;
+
+
+}
+nav a:hover /*elsötiti a cuccok hátterét amikor ráviszed az egeret*/
+{
+	background: rgba(0,0,0, 0.15);
+}
+img
+{
+	max-width: 100%;
+}
+main
+{
+		width: 90%;
+		max-width: 1000px;
+		margin: 35px auto;
+		
+}
+h1
+{
+	margin-bottom: 25px;
+	color: #222;
+	font-family: "Title";
+	font-size: 200%;	
+}
+h2
+{
+	margin-bottom: 15px;
+	color:#222;
+	font-family: "Title";
+	font-size:150%;
+}
+p
+{
+	margin-bottom: 15px;
+}
+p,
+main img
+{
+	margin-bottom: 15px;
+}
+.intro
+{
+	font-weight: bold;
+}
+section.extend
+{
+	background: #f8f8f8;
+	padding: 25px;
+}
+aside
+{
+	
+	background: #C8B7A9;
+	padding: 35px 0;
+	
+}
+aside .inside
+{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between; /*legyen hely a dobozok között*/
+}
+aside section
+{
+	width: 48%;
+}
+aside img
+{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: center center;
+	border-radius: 50%;
+}

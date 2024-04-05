@@ -1,0 +1,110 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	
+}
+header
+{
+	display: flex;
+	text-align: center;
+}
+header .right
+{
+	background-image: url(header.jpg);
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	padding-top: 400px;
+	width: 100%;
+}
+header .left 
+{
+	background: #718dac;
+	width: 30%;
+	padding: 20px;
+}
+nav
+{
+	background: #CD9461;
+	text-align: left;
+}
+nav ul
+{
+	list-style: none; /*felsorolo gömbök eltuntetése*/
+}
+nav li 
+{
+	display: inline-block; /* egymás mellett legyenek, az inline-blockkal pedig nem csak két oldalrol kap margot*/
+	
+}
+nav a 
+{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 25px;
+	display: block;
+	transition: background 0.3s;
+
+
+}
+nav a:hover /*elsötiti a cuccok hátterét amikor ráviszed az egeret*/
+{
+	background: rgba(0,0,0, 0.15);
+}
+.logo
+{
+	text-decoration: none;
+}
+.logo p
+{
+	text-align: center;
+	color: #fff;
+	opacity: 0.5;
+	margin-top: 50px;
+	
+}
+.logo img
+{
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+	display: flex;
+	margin-top: 100px;   
+    vertical-align: middle;
+}
+main
+{
+	
+	background: #FFFCD8;
+	
+	
+	
+}
+main .inside
+{
+	
+	max-width: 1000px;
+	margin-left: 300px;
+	padding-top: 50px;
+	background-size: 1000px;
+	display: flex;
+	justify-content: space-between; /*legyen hely a dobozok között*/
+}
+main section
+{
+	max-width: 95%;
+	padding-left:50px;
+	padding-bottom:100px;
+	
+}
+h3
+{
+	padding-bottom:20px;
+}
+.jobb
+{
+	padding-top: 40px;
+}
